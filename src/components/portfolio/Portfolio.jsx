@@ -1,5 +1,5 @@
 import "./portfolio.css";
-import img1 from "../../assets/portfolio1.jpg";
+import img1 from "../../assets/portfolio1.jpeg";
 import img2 from "../../assets/portfolio2.jpg";
 import img3 from "../../assets/portfolio3.jpg";
 
@@ -14,7 +14,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={img1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Teeth Care</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/khanmdsohel02/Teeth-Care"
