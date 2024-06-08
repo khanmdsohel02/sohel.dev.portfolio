@@ -5,13 +5,13 @@ import { FaSquareGithub } from "react-icons/fa6";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/" target="_blank">
+      <a href="https://www.linkedin.com/in/khanmdsohel/" target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com/" target="_blank">
+      <a href="https://github.com/khanmdsohel02" target="_blank">
         <FaSquareGithub />
       </a>
-      <a href="https://facebook.com/" target="_blank">
+      <a href="https://www.facebook.com/SoHeL.SRS25" target="_blank">
         <FaFacebookSquare />
       </a>
     </div>
