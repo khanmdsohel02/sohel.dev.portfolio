@@ -50,8 +50,10 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="footer__copyright"></div>
-      <small>&copy; Md. SoHeL. All rights reserved.</small>
+      <div className="footer__copyright">
+        {" "}
+        <small>&copy; Md. SoHeL. All rights reserved.</small>
+      </div>
     </footer>
   );
 };
