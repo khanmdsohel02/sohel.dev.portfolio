@@ -32,18 +32,19 @@
 }
 
 .service__list {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .service__list li {
   display: flex;
+  align-items: flex-start;
   gap: 1rem;
   margin-bottom: 0.8rem;
 }
 
 .service__list-icon {
   color: var(--color-primary);
-  /* margin-top: 2px; */
+  /* padding-top: 2rem; */
   font-size: 1.5rem;
 }
 

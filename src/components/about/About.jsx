@@ -1,5 +1,5 @@
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.png";
 import { SiFuturelearn } from "react-icons/si";
 import { VscFolderLibrary } from "react-icons/vsc";
 

@@ -15,13 +15,16 @@ const Navbar = () => {
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
+        <p>Home</p>
         <AiOutlineHome className="icon" />
       </a>
+
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
+        <p>About</p>
         <AiOutlineUser />
       </a>
       <a
@@ -29,6 +32,7 @@ const Navbar = () => {
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
+        <p>Experience</p>
         <BiBook />
       </a>
       <a
@@ -36,6 +40,7 @@ const Navbar = () => {
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
+        <p>Services</p>
         <RiServiceLine />
       </a>
       <a
@@ -43,6 +48,7 @@ const Navbar = () => {
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
+        <p>Portfolio</p>
         <GrProjects />
       </a>
       <a
@@ -50,6 +56,7 @@ const Navbar = () => {
         onClick={() => setActiveNav("#testimonials")}
         className={activeNav === "#testimonials" ? "active" : ""}
       >
+        <p>Testimonials</p>
         <RiUserStarLine />
       </a>
       <a
@@ -57,6 +64,7 @@ const Navbar = () => {
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
+        <p>Contact</p>
         <BiMessageSquareDetail />
       </a>
     </nav>

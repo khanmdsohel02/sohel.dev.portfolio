@@ -1,7 +1,7 @@
 import "./portfolio.css";
 import img1 from "../../assets/portfolio1.jpeg";
-import img2 from "../../assets/portfolio2.jpg";
-import img3 from "../../assets/portfolio3.jpg";
+import img2 from "../../assets/portfolio2.jpeg";
+import img3 from "../../assets/portfolio3.jpeg";
 
 const Portfolio = () => {
   return (
@@ -37,17 +37,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={img2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Teeth Care Backend</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/khanmdsohel02/Teeth-Care"
+              href="https://github.com/khanmdsohel02/Teeth_care-Backend"
               className="btn"
               target="_blank"
             >
               Source Code
             </a>
             <a
-              href="https://teeth-care-client.vercel.app/"
+              href="https://teeth-care-client.vercel.app/dashboard"
               className="btn btn-primary"
               target="_blank"
             >
@@ -63,7 +63,7 @@ const Portfolio = () => {
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/khanmdsohel02/Teeth-Care"
+              href="https://github.com/khanmdsohel02"
               className="btn"
               target="_blank"
             >
