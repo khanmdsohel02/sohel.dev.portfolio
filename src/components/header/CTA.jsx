@@ -1,4 +1,4 @@
-import Resume from "../../assets/CV-Sohel.png";
+import Resume from "../../assets/sohel-resume.pdf";
 
 const CTA = () => {
   return (
