@@ -12,7 +12,8 @@ const Header = () => {
       strings: [
         "MERN Stack Developer",
         "Frontend ReactJS Developer",
-        "Backend Developer",
+        "Full Stack Developer",
+        // "Backend Developer",
       ],
       typeSpeed: 70,
       backSpeed: 70,
