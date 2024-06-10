@@ -4,9 +4,18 @@ import { FaSquareGithub } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      {/* <a href="#" className="footer__logo">
         SoHeL.DEV
+      </a> */}
+      {/* <a href="#" className="footer__logo">
+        𝓢𝓞𝓗𝓔𝓛.𝓓𝓔𝓥
+      </a> */}
+      <a href="#" className="footer__logo">
+        𝕊𝕆ℍ𝔼𝕃.𝔻𝔼𝕍
       </a>
+      {/* <a href="#" className="footer__logo">
+        █▓▒▒░░░𝕊𝕆ℍ𝔼𝕃.𝔻𝔼𝕍░░░▒▒▓█
+      </a> */}
 
       <ul className="permalinks">
         <li>

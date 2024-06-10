@@ -9,8 +9,9 @@ header {
   height: 100%;
   position: relative;
 }
-.header__container h1 {
-  text-transform: uppercase;
+.header__container .myName {
+  /* text-transform: uppercase; */
+  color: var(--color-primary);
 }
 .text-light {
   font-size: 1rem;
