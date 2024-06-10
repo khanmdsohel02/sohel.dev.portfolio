@@ -38,9 +38,7 @@ const About = () => {
             working in these fields for a while and achieved much experience. In
             most things I learned by my own efforts and tried to explore things
             on my own. I want an opportunity to prove my worth in this field. I
-            have been working on many projects, like E-commerce Website, Medical
-            Website, Food App website etc. I am a quick learner and I am always
-            looking for new challenges. I enjoy working online/offline.
+            have been working on many projects. I enjoy working online/offline.
             Languages skilled are English, Hindi, Bangla(Native), etc.
           </p>
 
