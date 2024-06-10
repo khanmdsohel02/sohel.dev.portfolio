@@ -16,9 +16,10 @@ const Header = () => {
         // "Backend Developer",
       ],
       typeSpeed: 70,
-      backSpeed: 70,
+      backSpeed: 30,
       backDelay: 1500,
       loop: true,
+      cursorChar: "<span style='font-size:1.5rem;'>&#9997;&#127995;</span>",
     });
 
     return () => {
