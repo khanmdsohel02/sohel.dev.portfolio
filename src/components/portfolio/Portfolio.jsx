@@ -1,7 +1,6 @@
 import "./portfolio.css";
-import img1 from "../../assets/portfolio1.jpeg";
-import img2 from "../../assets/portfolio2.jpeg";
-import img3 from "../../assets/portfolio3.jpeg";
+import img1 from "../../assets/TeethCare1.jpeg";
+import img2 from "../../assets/NextBooking1.png";
 
 const Portfolio = () => {
   return (
@@ -17,7 +16,7 @@ const Portfolio = () => {
           <h3>Teeth Care</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/khanmdsohel02/Teeth-Care"
+              href="https://github.com/khanmdsohel02/Teeth-Care-MERN-Project"
               className="btn"
               target="_blank"
             >
@@ -28,7 +27,7 @@ const Portfolio = () => {
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              Live
             </a>
           </div>
         </article>
@@ -37,43 +36,42 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={img2} alt="" />
           </div>
-          <h3>Teeth Care Backend</h3>
+          <h3>Next Booking</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/khanmdsohel02/Teeth_care-Backend"
+              href="https://github.com/khanmdsohel02/Next-Booking-MERN-Project"
               className="btn"
               target="_blank"
             >
               Source Code
             </a>
             <a
-              href="https://teeth-care-client.vercel.app/dashboard"
+              href="https://nextbookingfrontend.vercel.app"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              Live
+            </a>
+            <a
+              href="https://admim-next-booking.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Dashboard
             </a>
           </div>
         </article>
         {/* 3rd */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={img3} alt="" />
+            <img src="" alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/khanmdsohel02"
-              className="btn"
-              target="_blank"
-            >
+            <a href="" className="btn" target="_blank">
               Source Code
             </a>
-            <a
-              href="https://teeth-care-client.vercel.app/"
-              className="btn btn-primary"
-              target="_blank"
-            >
+            <a href="" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
