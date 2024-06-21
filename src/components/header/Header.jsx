@@ -32,7 +32,9 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello Dear I&apos;m</h5>
         {/* <h1>Md. SoHeL</h1> */}
-        <h1 className="myName">𝓜𝓓. 𝓢𝓞𝓗𝓔𝓛</h1>
+        {/*<h1 className="myName">𝓜𝓓. 𝓢𝓞𝓗𝓔𝓛</h1>*/}
+        {/*<h1 className="myName">𝙼𝙳. 𝚂𝙾𝙷𝙴𝙻</h1>*/}
+        <h1 className="myName">𝑀𝒟. 𝒮𝒪𝐻𝐸𝐿</h1>
 
         <h5 className="text-light">
           An <span ref={el} />
