@@ -1,6 +1,7 @@
 import "./portfolio.css";
 import img1 from "../../assets/TeethCare1.jpeg";
 import img2 from "../../assets/NextBooking1.png";
+import img3 from "../../assets/NextBooking2.png";
 
 const Portfolio = () => {
   return (
@@ -64,7 +65,7 @@ const Portfolio = () => {
         {/* 3rd */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="" alt="" />
+            <img src={img3} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
