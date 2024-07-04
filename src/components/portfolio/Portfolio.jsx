@@ -1,7 +1,7 @@
 import "./portfolio.css";
 import img1 from "../../assets/TeethCare1.jpeg";
 import img2 from "../../assets/NextBooking1.png";
-import img3 from "../../assets/NextBooking2.png";
+import img3 from "../../assets/HealthCare3.png";
 
 const Portfolio = () => {
   return (
@@ -67,12 +67,20 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={img3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>HealthCare</h3>
           <div className="portfolio__item-cta">
-            <a href="" className="btn" target="_blank">
+            <a
+              href="https://github.com/khanmdsohel02/HealthCare"
+              className="btn"
+              target="_blank"
+            >
               Source Code
             </a>
-            <a href="" className="btn btn-primary" target="_blank">
+            <a
+              href="https://health-care-platform.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
