@@ -48,7 +48,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com/SoHeL.SRS25" target="_blank">
+        <a href="https://www.facebook.com/DEV.SoHeL.SRS" target="_blank">
           <FaFacebookSquare className="footer__social-icon" />
         </a>
         <a href="https://www.linkedin.com/in/khanmdsohel/" target="_blank">
