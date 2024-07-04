@@ -28,7 +28,7 @@ const Portfolio = () => {
               className="btn btn-primary"
               target="_blank"
             >
-              Live
+              Live Demo
             </a>
           </div>
         </article>
@@ -51,7 +51,7 @@ const Portfolio = () => {
               className="btn btn-primary"
               target="_blank"
             >
-              Live
+              Live Demo
             </a>
             <a
               href="https://admim-next-booking.vercel.app"
