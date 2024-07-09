@@ -1,4 +1,4 @@
-import Resume from "../../assets/resume_sohel.pdf";
+// import Resume from "../../assets/resume_sohel.pdf";
 
 const CTA = () => {
   return (
@@ -7,10 +7,10 @@ const CTA = () => {
         href={
           "https://drive.google.com/file/d/1qCbaNde65JvXX7DZHqvniDYy5hQrsjpJ/view"
         }
-        download
+        // download
         className="btn"
       >
-        Download Resume
+        Resume
       </a>
       <a href="#contact" className="btn btn-primary">
         Let&apos;s Talk
