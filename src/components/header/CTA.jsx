@@ -3,7 +3,13 @@ import Resume from "../../assets/resume_sohel.pdf";
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={Resume} download className="btn">
+      <a
+        href={
+          "https://drive.google.com/file/d/1qCbaNde65JvXX7DZHqvniDYy5hQrsjpJ/view"
+        }
+        download
+        className="btn"
+      >
         Download Resume
       </a>
       <a href="#contact" className="btn btn-primary">
