@@ -9,6 +9,7 @@ const CTA = () => {
         }
         // download
         className="btn"
+        target="_blank"
       >
         Resume
       </a>
