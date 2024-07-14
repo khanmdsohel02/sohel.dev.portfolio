@@ -61,6 +61,12 @@ footer a {
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 1024px) {
+  .permalinks {
+    gap: 1rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .permalinks {
     flex-direction: column;
@@ -68,5 +74,8 @@ footer a {
   }
   .footer__socials {
     margin-bottom: 2.6rem;
+  }
+  .permalinks {
+    gap: 0.5rem;
   }
 }
