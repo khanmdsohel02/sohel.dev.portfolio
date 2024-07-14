@@ -59,7 +59,7 @@ const Services = () => {
         {/* END OF MERN Stack Development */}
         <article className="service">
           <div className="service__head">
-            <h3>Frontend Development (ReactJS)</h3>
+            <h3>Frontend Development</h3>
           </div>
 
           <ul className="service__list">

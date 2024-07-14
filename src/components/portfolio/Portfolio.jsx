@@ -2,6 +2,7 @@ import "./portfolio.css";
 import img1 from "../../assets/TeethCare1.jpeg";
 import img2 from "../../assets/NextBooking1.png";
 import img3 from "../../assets/HealthCare3.png";
+import { BsPatchCheckFill } from "react-icons/bs";
 
 const Portfolio = () => {
   return (
@@ -15,6 +16,26 @@ const Portfolio = () => {
             <img src={img1} alt="" />
           </div>
           <h3>Teeth Care</h3>
+          <div className="key-features">
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">
+                User Authentication and Authorization
+              </small>
+            </div>
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Appointment Booking System</small>
+            </div>
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Dashboard</small>
+            </div>
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Real-Time Messaging</small>
+            </div>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/khanmdsohel02/Teeth-Care-MERN-Project"
@@ -38,6 +59,26 @@ const Portfolio = () => {
             <img src={img2} alt="" />
           </div>
           <h3>Next Booking</h3>
+          <div className="key-features">
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">
+                User Authentication and Authorization
+              </small>
+            </div>
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Hotel Booking System</small>
+            </div>
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Admin Dashboard</small>
+            </div>
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Admin verifies</small>
+            </div>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/khanmdsohel02/Next-Booking-MERN-Project"
@@ -68,6 +109,16 @@ const Portfolio = () => {
             <img src={img3} alt="" />
           </div>
           <h3>HealthCare</h3>
+          <div className="key-features">
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Appointment Booking System</small>
+            </div>
+            <div className="feature">
+              <BsPatchCheckFill className="features-icon" />
+              <small className="text-light">Real-Time Messaging</small>
+            </div>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/khanmdsohel02/HealthCare"
